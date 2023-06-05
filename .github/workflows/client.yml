@@ -15,7 +15,7 @@ jobs:
         working-directory: ../my-agora-states-client-react
       - name: Build
         run: npm run build
-        working-directory: ../my-agora-states-client-react
+        working-directory: my-agora-states-client-react
       - name: SHOW AWS CLI VERSION
         run: |
           aws --version
